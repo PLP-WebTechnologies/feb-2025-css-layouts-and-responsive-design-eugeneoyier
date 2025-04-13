@@ -1,26 +1,34 @@
-# CSS Layouts and Responsive Design
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-## Objectives
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <section class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Links and info here...</p>
+    </section>
+    <section class="article">
+      <h1>Main Article</h1>
+      <p>This is the main content area.</p>
+    </section>
+  </div>
 
-Implement Flexbox and Grid for layout design.
-Make the webpage responsive using media queries.
-Ensure proper alignment and spacing.
-
-## Instructions
-
-- use Flexbox or CSS Grid.
-- Add a navigation bar and structure the content.
-- Use media queries to adjust layout for mobile, tablet, and desktop.
-
->[!NOTE]
->  - Include at least:
->  - navigation bar
->  - media queries
-
-# Tasks
-
-- Apply Flexbox or Grid for layout.
-- Make the page responsive.
-- Test across different screen sizes.
-
-Happy Coding! 💻✨
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website</p>
